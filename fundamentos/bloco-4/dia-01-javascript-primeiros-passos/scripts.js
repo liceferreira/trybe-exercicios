@@ -96,8 +96,8 @@ switch(status) {
 
   // Exercício 1 // Aritimética básica
 
-  const a = 2;
-  const b = 53;
+  const a = 10;
+  const b = 5;
   
   console.log('Soma: ' + (a + b));
   console.log('Subtração: ' + (a - b));
@@ -105,5 +105,13 @@ switch(status) {
   console.log('Divisão: ' + (a / b));
   console.log('Módulo: ' + (a % b));
 
+// Exercício 2
 
+const maiorNumero = 15;
+const menorNumero = 12;
 
+  if (maiorNumero > menorNumero) {
+    console.log("15 é maior que 12");
+  } else {
+    console.log("12 é maior que 15");
+  };
