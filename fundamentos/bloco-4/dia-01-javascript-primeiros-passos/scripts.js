@@ -64,7 +64,7 @@ let message = "";
     console.log(message);
 
 
-//  Exercício para fixar 5 
+//  Exercício para fixar 5 // Operadores lógicos
 
 let weekDay = "quarta-feira";
 
@@ -75,3 +75,21 @@ let weekDay = "quarta-feira";
         console.log("FINALMENTE, descanso merecido! UwU");
     }
 
+//  Exercício para fixar 6 // Switch case
+
+const status = "reprovada";
+
+switch(status) {
+    case 'aprovada':
+      console.log("Parabéns, você foi aprovada(o)!");
+      break;
+    case 'lista':
+      console.log("Você está na nossa lista de espera");
+      break;
+    case 'reprovada':
+      console.log("Você foi reprovada(o)");
+      break;
+    default:
+      console.log("Informação incorreta");
+      break;
+  }
