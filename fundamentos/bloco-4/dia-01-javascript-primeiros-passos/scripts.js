@@ -115,3 +115,17 @@ const menorNumero = 12;
   } else {
     console.log("12 é maior que 15");
   };
+
+// Exercício 3 
+
+const aa = 6;
+const bb = 4;
+const cc = 2;
+
+if (aa > bb && aa > cc) {
+  console.log('O maior número é: ' + aa + ' (a)');
+} else if (bb > aa && bb > cc) {
+  console.log('O maior número é: ' + bb + ' (b)');
+} else {
+  console.log('O maior número é: ' + cc + ' (c)');
+};
