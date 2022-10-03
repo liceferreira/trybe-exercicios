@@ -129,3 +129,83 @@ if (aa > bb && aa > cc) {
 } else {
   console.log('O maior número é: ' + cc + ' (c)');
 };
+
+// Exercício 4
+
+const number4 = 100;
+
+if (number4 > 0) {
+  console.log("positive");
+} else if (number4 < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+};
+
+// Exercício 5
+
+const angleA = 60;
+const angleB = 60;
+const angleC = 60;
+
+let sum = angleA + angleB + angleC;
+
+let positiveAngle = angleA > 0 && angleB > 0 && angleC > 0;
+
+  if (positiveAngle) {
+    if(sum === 180) {
+      console.log(true);
+    } else {
+      console.log(false);
+    };
+  } else {
+    console.log("ângulo inválido")
+  };
+
+// Exercício 6
+
+const chess = 'rei';
+
+switch (chess.toLowerCase()) {
+  case 'rei':
+    console.log("Rei: uma casa em qualquer direção");
+  break;
+  case 'rainha':
+    console.log("Rainha: quantas casas quiser na diagonal, horizontal e vertical");
+  break;
+  case 'bispo':
+    console.log("Bispo: quantas casas quiser na diagonal");
+  break;
+  case 'torre':
+    console.log("Torre: quantas casas quiser na vertical e horizontal");
+  break;
+  case 'cavalo':
+    console.log("Cavalo: em L");
+  break;
+  case 'peao':
+    console.log("Peão: uma casa para frente, no primeiro movimento pode avançar duas casas");
+  default:
+    console.log("Erro: peça inválida");
+  break;
+};
+
+// Exercício 7
+
+let gradePercentage = 100;
+
+  if (gradePercentage < 0 || gradePercentage > 100) {
+    console.log("Erro, nota inválida");
+  } else if (gradePercentage >= 90) {
+    console.log("A");
+  } else if (gradePercentage >= 80) {
+    console.log("B");
+  } else if (gradePercentage >= 70) {
+    console.log("C");
+  } else if (gradePercentage >= 60) {
+    console.log("D");
+  } else if (gradePercentage >= 50) {
+    console.log("E");
+  }else if (gradePercentage < 50) {
+    console.log("F");
+  };
+  
