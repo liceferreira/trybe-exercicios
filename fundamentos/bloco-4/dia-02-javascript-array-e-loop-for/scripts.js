@@ -19,3 +19,11 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
         const elements = groceryList[i];
         console.log(elements)
     };
+
+// Exercício para fixar // for/of
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+ 
+for (let i of names) {
+    console.log(i);
+};
