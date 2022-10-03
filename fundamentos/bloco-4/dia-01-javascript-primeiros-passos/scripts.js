@@ -208,4 +208,45 @@ let gradePercentage = 100;
   }else if (gradePercentage < 50) {
     console.log("F");
   };
-  
+
+// Exercício 8 
+
+const num8a = 7;
+const num8b = 5;
+const num8c = 2;
+
+ let even = false;
+
+ if ((num8a % 2 === 0 || num8b % 2 === 0 || num8c % 2 === 0)) {
+  even = true;
+ }
+ console.log(even);
+
+// Exercício 9
+
+const num9a = 7;
+const num9b = 5;
+const num9c = 2;
+
+ let odd = false;
+
+ if ((num9a % 2 !== 0 || num9b % 2 !== 0 || num9c % 2 !== 0)) {
+  odd = true;
+ }
+ console.log(odd);
+
+// Exercício 10
+
+const productCost = 10;
+const productValue = 30;
+
+if (productCost > 0 && productValue > 0) {
+  const totalProductCost = productCost * 1.2;
+  const profit = (productValue - totalProductCost) * 400;
+  console.log(profit);
+} else {
+  console.log("Erro! Os valores não podem ser negativos!")
+};
+
+// Exercício 11 - INSS
+
